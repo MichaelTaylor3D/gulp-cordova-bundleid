@@ -1,0 +1,32 @@
+{
+  "name": "gulp-cordova-bundleid",
+  "version": "0.0.1",
+  "description": "Set Cordova bundle id through CLI",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelTaylor3D/gulp-cordova-bundleid.git"
+  },
+  "author": {
+    "name": "Michael Taylor",
+    "email": "mtaylor@michaeltaylor3d.com",
+    "url": "http://www.michaeltaylor3d.com"
+  },
+  "keywords": [
+    "gulpplugin",
+    "cordova",
+    "bundle",
+    "gulp"
+  ],
+  "dependencies": {
+    "gulp-xml-editor": "^2.1.1",
+    "gulp-load-plugins": "^0.8.0",
+    "gutil": "^1.5.5",
+    "vinyl-fs": "^0.3.13",
+    "yargs": "^1.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-cordova-bump": "^1.2.0"
+  }
+}
